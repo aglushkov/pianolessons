@@ -2,7 +2,7 @@
 /* CSS Document */
 em.seo, strong.seo {
 	font-weight: normal;
-	font-style: normal; 
+	font-style: normal;
 }
 html {
     height: 100%;
@@ -131,8 +131,8 @@ img {
     text-align: center;
     color:SeaGreen;
     font-style: italic;
-    font-weight: bold;	
-    font-family: "Lucida Grande";	
+    font-weight: bold;
+    font-family: "Lucida Grande";
 }
 #authorname
 {
@@ -189,7 +189,7 @@ img {
 #nav ul li {
     list-style: none;
     position: relative;
-    margin-top:43px;
+    margin-top:27px;
     font-size:20px;
 }
 
@@ -240,12 +240,12 @@ div.h1
     margin-bottom:21px;
 }
 
-h1 { 
+h1 {
     text-align:center;
     color:#4B0082;
     font-size: 25px;
     line-height:26px;
-} 
+}
 
 h2 {
     font-family: Myriad Pro, Verdana, Geneva, Arial;
@@ -337,14 +337,14 @@ p#first {
 /* FAQ page */
 
 span.questionBox p {
-    font-weight: bold; 
-    margin-bottom: -1em; 
-    font-style: italic;  
+    font-weight: bold;
+    margin-bottom: -1em;
+    font-style: italic;
     text-indent: 0; }
 
 span.answerBox p {
     text-indent: 0;
-    margin-left: 3em; 
+    margin-left: 3em;
 }
 
 
@@ -354,15 +354,15 @@ span.answerBox p {
 
 div#Form {
     float: right;
-    width: 50%; 
-    height: 100%; 
+    width: 50%;
+    height: 100%;
     margin: 0; }
 
 
 div#Box {
-    white-space: nowrap; 
-    height: 400px; 
-    margin: 0 5%; 
+    white-space: nowrap;
+    height: 400px;
+    margin: 0 5%;
     padding: 0;
 }
 
@@ -375,7 +375,7 @@ form font {
     color: #000 }
 
 form img {
-    width: 100px; 
+    width: 100px;
     height: 50px; }
 
 div.Parameter a {
@@ -383,7 +383,7 @@ div.Parameter a {
     color: #000; }
 
 div.Field {
-    font-weight: bold; 
+    font-weight: bold;
     font-variant: small-caps;
     font-size: 100%;
     color: #000; }
@@ -404,14 +404,14 @@ div.Parameter {
 }
 
 #nav #lessonList li{
-    
+
     text-align:left;
     font-size:13px;
     height:20px;
     margin:0px;
     line-height: 20px;
     padding-left:10px;
-}    
+}
 #nav #lessonList li a{
     text-align:left;
     font-size:13px;
@@ -420,7 +420,7 @@ div.Parameter {
     line-height: 20px;
     padding: 0px;
     white-space: nowrap;
-}    
+}
 
 #lessonsList
 {
@@ -472,7 +472,7 @@ div.Parameter {
 
 #reviews
 {
-    width:100%;    
+    width:100%;
     clear:both;
     border-collapse: collapse;
 }
@@ -486,7 +486,7 @@ div.Parameter {
     border:1px solid black;
     border-radius: 7px;
     padding:0 7px;
-    background-color: white; 
+    background-color: white;
 }
 
 #reviews .reviewName
@@ -510,7 +510,7 @@ div.Parameter {
     cursor: pointer;
     border:1px outset black;
     margin-top:5px;
-    
+
 }
 .reviewDate,.reviewApprove,.reviewDisApprove,.reviewDelete,.reviewHidden,.reviewVisible
 {
@@ -533,7 +533,7 @@ div.Parameter {
 }
 
 
-dl 
+dl
 {
     overflow: auto;
     margin:5px 0px;

@@ -6,7 +6,7 @@
                 <li>
                     <a href="/piano-lessons-for-children">Piano lessons for Children</a><br/>
                     <div>Anastasiya works on a one-to-one basis with children from as young as 5 years old. <a href="/piano-lessons-for-children">More...</a></div>
-                </li>                
+                </li>
                 <li>
                     <a href="/piano-lessons-for-adults">Piano lessons for Adults</a><br/>
                     <div>Anastasiya teaches adults of all levels - from the beginner to the professional. <a href="/piano-lessons-for-adults">More...</a></div>
@@ -31,7 +31,7 @@
                     <a href="/mini-maestros">Mini Maestros</a><br/>
                     <div>Mini Maestros are group music classes for children from 2 to 6 years old, with the emphasis placed on both the educational and fun aspects of learning music. <a href="/mini-maestros">More...</a></div>
                 </li>
-            </ul>				
+            </ul>
             <div class="bodytext">
             </div>
         </div>

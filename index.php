@@ -17,10 +17,15 @@ if (empty($_GET["page"])) {
   $description = $pagename . ' - ' . $description;
 }
 
-if (!file_exists(DOCROOT . "/views/pages/$page.php")) {
+if (file_exists(DOCROOT . "/views/pages/$page.php")) {
+  $curent_file = DOCROOT . "/views/pages/$page.php";
+} elseif(file_exists(DOCROOT . "/views/pages/lessons/$page.php")) {
+  $curent_file = DOCROOT . "/views/pages/lessons/$page.php";
+} elseif(file_exists(DOCROOT . "/views/pages/events/$page.php")) {
+  $curent_file = DOCROOT . "/views/pages/events/$page.php";
+} else {
   header("HTTP/1.0 404 Not Found");
-  header("Location: /404");
-  die();
+  $curent_file = DOCROOT . "/views/pages/404.php";
 }
 
 require_once DOCROOT . '/helpers/javascripts.php';
@@ -54,9 +59,7 @@ $Navig = new Navigation();
               </div>
             </div>
           </div>
-          <?
-          include DOCROOT . "/views/pages/$page.php";
-          ?>
+          <? include $curent_file; ?>
         </div>
       </div>
       <div id="footer">

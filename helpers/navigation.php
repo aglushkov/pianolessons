@@ -22,6 +22,7 @@ class Navigation
                             )
                         ),
                         'biography'=>array("name"=>"Biography"),
+                        'events-and-performances'=>array("name"=>"Events and Performances"),
                         'contact'=>array("name"=>"Contact"),
                         'testimonials'=>array("name"=>"Reviews")
                     )
