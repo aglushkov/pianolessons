@@ -54,7 +54,7 @@ legend
 }
 
 #wrapper{
-    width:900px;
+    width:910px;
     margin:0px auto 0px;
     padding-bottom:50px;
 }
@@ -153,7 +153,7 @@ img {
 /* navigation */
 
 #topnav{
-    width: 120px;
+    width: 130px;
     float:left;
     display:inline;
     text-align:right;
@@ -177,7 +177,7 @@ img {
 }
 
 #nav {
-    width:130px;
+    width:140px;
 }
 
 #nav ul {
