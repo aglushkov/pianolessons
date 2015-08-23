@@ -21,14 +21,16 @@ abstract class BaseEmail {
     $mail->AddAddress(NASTYA_EMAIL);
 
 
-    // $mail->isSMTP();
-    // $mail->Host = 'smtp.gmail.com';
-    // $mail->Port = 587;
-    // $mail->SMTPSecure = 'tls';
-    // $mail->SMTPAuth = true;
-    // $mail->Username = "anvamp@gmail.com";
-    // https://security.google.com/settings/security/apppasswords
-    // $mail->Password = "";
+    if (USE_SMTP) {
+      $mail->isSMTP();
+      $mail->Host = SMTP_HOST;
+      $mail->Port = SMTP_PORT;
+      $mail->SMTPSecure = SMTP_SECURE;
+      $mail->SMTPAuth = SMTP_AUTH;
+      $mail->Username = SMTP_USERNAME;
+      // https://security.google.com/settings/security/apppasswords
+      $mail->Password = SMTP_PASSWORD;
+    }
 
     if ($mail->Send()) {
        $this->successMessage = $this->successMessageDefault;
@@ -48,7 +50,7 @@ abstract class BaseEmail {
   }
 
   protected function layout() {
-    file_get_contents(DOCROOT . '/views/layouts/email.html');
+    return file_get_contents(DOCROOT . '/views/layouts/email.html');
   }
 }
 

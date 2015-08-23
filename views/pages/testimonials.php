@@ -1,5 +1,8 @@
 <?
 require_once DOCROOT . '/model/reviews.php';
+require_once DOCROOT . '/inc/PHPMailer_5.2.1/class.phpmailer.php';
+require_once DOCROOT . '/lib/emails/reviews.php';
+
 $Reviews = new Reviews();
 
 if(!empty($_POST)) {
@@ -8,12 +11,11 @@ if(!empty($_POST)) {
   switch ($_POST["action"]) {
     case "new": {
       $res = $Reviews->addReview(trim($name), trim($message));
-      require_once $_SERVER["DOCUMENT_ROOT"] . '/inc/PHPMailer_5.2.1/class.phpmailer.php';
-      require_once $_SERVER["DOCUMENT_ROOT"] . '/lib/emails/reviews.php';
+
       if ($res) {
         $success_message = "<div style='background-color:greenyellow'>Rewiew succesfully added. Please note, it will remain hidden until approved by administrator.</div>";
 
-        $Email = new ReviewsEmail($name, $message);
+        $Email = new ReviewsEmail(trim($name), trim($message));
         if (!empty($_POST)) {
           $Email->send();
         }

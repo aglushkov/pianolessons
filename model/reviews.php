@@ -1,5 +1,5 @@
 <?php
-require_once DOCROOT . '/config/secrets.php';
+require_once DOCROOT . '/lib/db.php';
 
 class Reviews{
 	public function __construct(){
