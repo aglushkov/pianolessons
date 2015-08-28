@@ -14,7 +14,7 @@
             <h2>Nikita, 10.y.o</h2>
             <iframe style="width:680px; height:382px"  src="http://www.youtube.com/embed/aDoi7wcPYMI" frameborder="0" allowfullscreen></iframe>
             <h2>Milana, 11.y.o</h2>
-            <iframe style="width:680px; height:382px"  src="http://www.youtube.com/embed/Jir9fDGvChA" frameborder="0" allowfullscreen></iframe>
+            <iframe style="width:680px; height:382px"  src="http://www.youtube.com/embed/jFoyatuYssE" frameborder="0" allowfullscreen></iframe>
             <h2>Marianna, Eliza, Evelina</h2>
             <iframe style="width:680px; height:382px"  src="http://www.youtube.com/embed/2VBDxp5tAcU" frameborder="0" allowfullscreen></iframe>
             <h2>Christmas Choire</h2>
