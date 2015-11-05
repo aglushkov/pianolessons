@@ -23,7 +23,7 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/granted-diploma-by-riam</loc>
+        <loc>http://pianolessonsindublin.ie/julian-callan-associate-teacher-diploma</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
@@ -34,6 +34,11 @@
     </url>
     <url>
         <loc>http://pianolessonsindublin.ie/lessons</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://pianolessonsindublin.ie/marianna-high-achiever-award</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
