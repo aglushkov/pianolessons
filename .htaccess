@@ -5,6 +5,7 @@ RewriteEngine On
 
 RewriteRule ^lessons/([^\.]+).html$ /$1 [R=permanent,L]
 RewriteRule ^reviews$ /testimonials [R=permanent,L]
+RewriteRule ^events-and-performances$ /news-and-events [R=permanent,L]
 RewriteRule ^([a-z0-9-]+).html$ /$1 [R=permanent,L]
 RewriteRule ^index$ / [R=permanent,L]
 RewriteRule ^([a-z0-9-]+)/?$ /index.php?page=$1 [NC,L]
