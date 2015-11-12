@@ -5,7 +5,7 @@
         <div class="bodytext">
             <p>Julian Callan, a student of Anastasiya for the last 10 years, was granted the Associate Teacher Diploma (ARIAM) of Royal Irish Academy of Music.</p>
             <p>A big congratulations to Julian for his amazing achievement!</p>
-            <img src='/images/anstasiya_student_was_granted_diploma_by_riam.jpg'></img>
+            <img style="display: block; margin: 0 auto;"  src='/images/anstasiya_student_julian_granted_diploma_by_riam.jpg'></img>
         </div>
     </div>
 </div>
