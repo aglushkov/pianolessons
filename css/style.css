@@ -428,7 +428,7 @@ div.Parameter {
     line-height: 35px;
     font-family: "Lucida Grande","Times New Roman","Georgia";
     font-style: italic;
-    list-style: inside circle;
+    list-style: outside circle;
 }
 #lessonsList li
 {
