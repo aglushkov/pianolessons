@@ -17,6 +17,16 @@ if (empty($_GET["page"])) {
   $description = $pagename . ' - ' . $description;
 }
 
+if ($page == 'reviewsadmin') {
+  require_once DOCROOT . '/config/secrets.php';
+  if (!(@$_SERVER['PHP_AUTH_USER'] == ADMIN_NAME && @$_SERVER['PHP_AUTH_PW'] == ADMIN_PASS)) {
+    header('WWW-Authenticate: Basic realm="My Realm"');
+    header('HTTP/1.0 401 Unauthorized');
+    echo 'Restricted Area';
+    exit;
+  }
+}
+
 if (file_exists(DOCROOT . "/views/pages/$page.php")) {
   $curent_file = DOCROOT . "/views/pages/$page.php";
 } elseif(file_exists(DOCROOT . "/views/pages/lessons/$page.php")) {

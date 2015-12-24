@@ -1,12 +1,4 @@
 <?
-require_once DOCROOT . '/config/secrets.php';
-if (!($_SERVER['PHP_AUTH_USER'] == ADMIN_NAME && $_SERVER['PHP_AUTH_PW'] == ADMIN_PASS)) {
-  header('WWW-Authenticate: Basic realm="My Realm"');
-  header('HTTP/1.0 401 Unauthorized');
-  echo 'Restricted Area';
-  exit;
-}
-
 require_once DOCROOT . '/model/reviews.php';
 
 define("NEWREVIEW","Send review");
