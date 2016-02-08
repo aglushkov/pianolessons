@@ -558,3 +558,12 @@ input.submit
     display:block;
     margin: 0 auto;
 }
+
+.slider-for div img {
+    margin: 0 auto;
+}
+
+.slick-custom-nav img {
+    height: 181px;
+    cursor: pointer;
+}

@@ -3,6 +3,7 @@
         <h1>News and Events</h1>
         <div align="justify">
             <ul id="lessonsList">
+                <li><a href="/results-pre-christmas-riam-examinations">Excellent results achieved in Pre-Christmas RIAM examinations</a></li>
                 <li><a href="/laura-dowling-associate-teacher-diploma">Anastasiya's student receives the Associate Diploma of RIAM - December 2015</a></li>
                 <li><a href="/marianna-high-achiever-award">Anastasiya's student receives High Achiever Award - November 2015</a></li>
                 <li><a href="/julian-callan-associate-teacher-diploma">Anastasiya's student receives the Associate Diploma of RIAM - July 2015</a></li>

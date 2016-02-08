@@ -53,6 +53,8 @@ $Navig = new Navigation();
     <meta name="description" content="<?= $description ?>"/>
     <link rel='shortcut icon' type='image/vnd.microsoft.icon' href='/favicon.ico'/>
     <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/js/slick-1.5.9/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/js/slick-1.5.9/slick/slick-theme.css"/>
   </head>
   <body>
     <div id="container">
