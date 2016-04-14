@@ -16,7 +16,7 @@ class Navigation
                                     'vocal-coaching-and-accompaniment'=>array("name"=>"Vocal Coaching and Accompaniment"),
                                     'theory-lessons'=>array("name"=>"Theory Lessons"),
                                     'junior-leaving-certificates-music'=>array("name"=>"Junior/Leaving Certificates Music"),
-                                    'riam-diploma'=>array("name"=>"RIAM Diplomas"),
+                                    'diplomas'=>array("name"=>"Diplomas"),
                                     'mini-maestros'=>array("name"=>"Mini Maestros")
                                 )
                             )

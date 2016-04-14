@@ -12,25 +12,31 @@
             <p>It's up to you which path to take- learn to play your favourite piano pieces or prepare for graded examinations.</p>
 
             <h2>Adult Beginner</h2>
-            <p>Perhaps you've had a brief encounter with the piano in your childhood or later years, but always regretted not continuing it. 
+            <p>Perhaps you've had a brief encounter with the piano in your childhood or later years, but always regretted not continuing it.
                 <br/>You have already completed your first step.
                 <br/>Now, with maturity, you can take up where you left off and reignite your love of the music.</p>
 
             <h2>Adult Intermediate</h2>
             <p>Perhaps you've already reached a particular grade and consider yourself at an intermediate level, but for whatever reasons you had to give it up.</p>
-            <p>Now there is no need to regret. 
+            <p>Now there is no need to regret.
                 <br/>Anastasiya will have you submerged in your love of piano again. You will quickly catch up and you will soon be on your way to reaching your new musical goals.</p>
 
             <h2>Adult Advanced</h2>
             <div style="float: right; margin: 11px; width:365px; text-align: center;">
-                <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/ff4LqC5buVQ" frameborder="0" allowfullscreen></iframe>
+                <iframe style="width:335px; height:234px" src="https://www.youtube.com/embed/4-PuN5Yt3Ms" frameborder="0" allowfullscreen></iframe>
                 <span style="color: #444444; line-height: 17px; font-size:13px; "></span>
             </div>
+            <?
+            // <div style="float: right; margin: 11px; width:365px; text-align: center;">
+            //     <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/ff4LqC5buVQ" frameborder="0" allowfullscreen></iframe>
+            //     <span style="color: #444444; line-height: 17px; font-size:13px; "></span>
+            // </div>
+            ?>
             <p>Or perhaps you are an advanced adult piano student who is focused on classical music.
                 <br/>With Anastasiya you have the opportunity to explore the repertoire of the greatest masters including Bach, Beethoven, Chopin, Liszt, Rachmaninov, and many more.  </p>
 
             <p>If you want to prepare for the Royal Irish Academy Diplomas- both Associate [ARIAM] Teacher or Performer and Licentiate [LRIAM] Teacher or Performer, Anastasiya can help you with it.</p>
-           
+
 
             <h2><strong style="text-decoration: underline;">The key advantages of piano lessons are:</strong></h2>
             <div style="float: right; margin: 11px; width:365px; text-align: center;">

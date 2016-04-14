@@ -12,7 +12,7 @@
                         *Do you currently play and want to further your studies,<br/>
                         whether for pleasure or examinations?
                 </p>
-                <p style="text-align:center;">If you answered "yes" to any of the above, 
+                <p style="text-align:center;">If you answered "yes" to any of the above,
                     then phone now on 0877596731.</p>
                 <div class="h1" style="width:539px;margin:0px auto; color: #4B0082; font-size: 25px; line-height: 26px; text-align: center;">
                     <h1 style="margin-bottom:0px;">
@@ -32,19 +32,23 @@
                 </p>
                 <p>With the proper support, direction and guidance that Anastasiya gives to all her students, she guarantees you success in achieving your goals in music, whatever they may be.
                     <br/>Anastasiya is a creative performing artist and teacher.<br/>
-                    <br/><img src="/images/students.jpg" width="680" alt="Piano Students" title="Piano Students" style="border-color: #fff;"/><br/>
+                    <?
+                    //<br/>
+                    //<img src="/images/students.jpg" width="680" alt="Piano Students" title="Piano Students" style="border-color: #fff;"/>
+                    //<br/>
+                    ?>
                     <br/>She tailor-fits and customizes each <strong class="seo">teaching program to match the individual needs and technical abilities of every student.</strong>
                     <br/>Working from her extensive music library, Anastasiya caters for all musical styles- from classical to modern, and for all levels of piano playing- from absolute beginners to the most advanced.
                     <br/>Those students, who apply themselves and put the effort into their studies, will be rewarded with excellent results.
                     </p>
-                <p>Anastasiya loves to teach and she always strives to keep every student inspired, motivated and interested during the piano lessons, whilst at the same time making the experience fun and rewarding. 
+                <p>Anastasiya loves to teach and she always strives to keep every student inspired, motivated and interested during the piano lessons, whilst at the same time making the experience fun and rewarding.
                     <br/>The teaching methods employed by Anastasiya are based on both Russian and Western European classical performance traditions.
                     <br/>Anastasiya's students always achieve excellent examination results, whether it's the Royal Irish Academy or Associated Board examinations.
                     <br/>Some of them have become prize winners in Feis Ceoil and other competitions, whilst others have received High Achiever Awards and Medals from the Royal Irish Academy of Music.
                     <br/>A number of her students have gone on to pursue their musical education at third-level in colleges and universities in Ireland and abroad.
                     <br/>Anastasiya even gives piano lessons to other music teachers, who want to improve their abilities and professionalism.
                     <br/>She has students from different music schools and colleges, who are <strong class="seo">taking piano lessons with her to refine their skills and to achieve higher goals.</strong>
-                    <br/>Anastasiya also prepares her students for Associate and Licentiate Diplomas of the Royal Irish Academy of Music.
+                    <br/>Anastasiya also prepares her students for Associate and Licentiate Diplomas of the Royal Irish Academy of Music and of other exam boards.
                 </p>
                 <p>As a native Russian speaker Anastasiya can give piano lessons to those students, who prefer to work in the Russian language.</p>
             </div>

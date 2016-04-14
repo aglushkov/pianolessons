@@ -24,8 +24,8 @@
                     <div>Anastasiya can prepare students for both Junior and Leaving Certificates Music. <a href="/junior-leaving-certificates-music">More...</a></div>
                 </li>
                 <li>
-                    <a href="/riam-diploma">RIAM Diplomas</a><br/>
-                    <div>Anastasiya can prepare pianists for the Royal Irish Academy Diplomas - both Associate [ARIAM] Teacher or Performer and Licentiate [LRIAM] Teacher or Performer. <a href="/riam-diploma">More...</a></div>
+                    <a href="/diplomas">Diplomas</a><br/>
+                    <div>Anastasiya can prepare pianists for the Royal Irish Academy Diplomas - both Associate [ARIAM] Teacher or Performer and Licentiate [LRIAM] Teacher or Performer. <a href="/diplomas">More...</a></div>
                 </li>
                 <li>
                     <a href="/mini-maestros">Mini Maestros</a><br/>

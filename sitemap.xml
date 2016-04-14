@@ -23,6 +23,11 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc>http://pianolessonsindublin.ie/diplomas</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
         <loc>http://pianolessonsindublin.ie/julian-callan-associate-teacher-diploma</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
@@ -67,11 +72,13 @@
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
+
     <url>
-        <loc>http://pianolessonsindublin.ie/riam-diploma</loc>
+        <loc>http://pianolessonsindublin.ie/results-pre-christmas-riam-examinations</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
+
     <url>
         <loc>http://pianolessonsindublin.ie/student-summer-recital-june-2015</loc>
         <priority>0.9</priority>
