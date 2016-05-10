@@ -31,7 +31,7 @@
                 </li>
             </ul>
 
-            <p>These examinations are designed for the more advanced students, who have already passed Grade 8<br/> successfully, and want to continue their musical journey.</p>
+            <p>These examinations are designed for the more advanced students, who have already passed Grade 8 successfully, and want to continue their musical journey.</p>
             <p>The examination involves the preparation of a program of advanced pieces, scales and arpeggios, sight-reading, theory and aural.</p>
             <p>Not all teachers or schools can prepare you for Theory/Aural section, as well as Practical (Performance) part, but Anastasiya covers them all and her students' success record is 100%!</p>
         </div>
