@@ -1,6 +1,6 @@
 <?
 session_start();
-
+error_log(-1);
 define("DOCROOT", $_SERVER["DOCUMENT_ROOT"]);
 require_once DOCROOT . '/config/errors.php';
 require_once DOCROOT . '/initializers/referrer.php';

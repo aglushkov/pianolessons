@@ -5,10 +5,10 @@ $Java->add("/js/slider.js");
 
 <div id="mainimg">
     <div id="header" style="margin-top:10px;">
-        <h1>Excellent results achieved in Pre-Christmas RIAM examinations.</h1>
+        <h1>Excellent results achieved in RIAM examinations.</h1>
 
         <div class="bodytext">
-            <p>Once again students excelled themselves in their Pre-Christmas grade examinations with a number of them achieving Distinctions.</p>
+            <p>Once again students excelled themselves in their Christmas and Summer grade examinations with a number of them achieving Distinctions.</p>
             <p>Congratulations to everyone for all your hard work and effort!</p>
 
             <?
