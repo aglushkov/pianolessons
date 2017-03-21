@@ -1,7 +1,7 @@
 <div id="mainimg">
     <div id="header" style="margin-top:10px;">
         <h1>Piano lessons for children</h1>
-        <img width="430" height="277" align="right" style="margin-left: 11px; border:2px solid #FFF" src="/images/piano_lessons_for_children.jpg" alt="Piano lessons for children" title="Piano lessons for children"/>
+        <img width="430" height="287" align="right" style="margin-left: 11px; border:2px solid #FFF" src="/images/new/piano-lessons-in-dublin-for-children.jpg" alt="Piano lessons for children" title="Piano lessons for children"/>
         <div class="bodytext">
             <p>Anastasiya works on a one-to-one basis with children from as young as 5 years old.</p>
             <p>In her own unique way Anastasiya emphasises the fun aspect of learning when it comes to giving piano lessons for children so young. This is crucial when working with young pupils, where their attention span is less than that of the older child.</p>

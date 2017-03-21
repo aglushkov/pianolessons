@@ -20,7 +20,7 @@ if (!empty($_POST)) {
 ?>
 
 <div id="mainimg">
-  <img src="/images/after_piano_lessons.jpg" width="700" height="525" alt="After piano lessons" title="After piano lessons"/>
+  <img src="/images/new/piano-lessons-in-dublin-contacts.jpg" width="720" height="720" alt="Contacts" title="Contacts"/>
 
   <div id="header" style="margin-top:10px;">
     <a name="start"></a>

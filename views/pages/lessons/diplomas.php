@@ -2,7 +2,7 @@
     <div id="header" style="margin-top:10px;">
         <h1>Diplomas</h1>
         <div class="bodytext">
-            <img width="346" height="346" align="left" style="margin-right: 11px; border:2px solid #FFF" src="/images/piano_lessons_riam_diploma.jpg" alt="RIAM Diploma" title="RIAM Diploma"/>
+            <img width="346" height="346" align="left" style="margin-right: 11px; border:2px solid #FFF" src="/images/new/piano-lessons-in-dublin-riam-diplomas.jpg" alt="RIAM Diploma" title="RIAM Diploma"/>
 
             <p>The diploma is a professional qualification, recognised by other music professionals all over the world.</p>
             <p>Anastasiya prepares pianists for Performance and Teaching Diplomas with these examining boards:</p>

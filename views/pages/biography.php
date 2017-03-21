@@ -1,7 +1,7 @@
 <div id="mainimg">
     <div id="header" style="margin-top:10px;">
         <div align="justify">
-            <img width="346" height="260" align="left" style="margin: 11px; border:2px solid #FFF" src="/images/black_and_white_foto_asanstasiya.jpg" alt="Black and White Foto Asanstasiya" title="Asanstasiya"/>
+            <img width="346" height="454" align="left" style="margin: 11px; border:2px solid #FFF" src="/images/new/piano-lessons-in-dublin-biography.jpg" alt="Biography" title="Biography"/>
             <div class="bodytext">
                 <p>Born in Sevastopol (Ukraine), Anastasiya had her first concerto appearance at the age of 13. She has performed as a soloist with the Sevastopol Chamber Orchestra and the Symphony Orchestra of Crimea. She was awarded a scholarship from the Soros Foundation after graduating with Honours from the Tchaikovsky College of Music in Simferopol. This enabled her to further her studies at the Prague Academy of Performing Arts, from where she graduated with honours in Piano Performance and Piano Pedagogy (teaching).</p>
                 <div style="float: right; margin: 11px; width:365px; text-align: center;">
