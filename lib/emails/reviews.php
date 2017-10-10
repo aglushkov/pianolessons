@@ -16,7 +16,7 @@ class ReviewsEmail extends BaseEmail {
     $message .= "<pre style='font-size:14px;'>";
     $message .= $this->user_message;
     $message .= "</pre></br>";
-    $message .= "<b>Approve here:</b> <a href='http://pianolessonsindublin.ie/reviewsadmin'>http://pianolessonsindublin.ie/reviewsadmin</a><br/>";
+    $message .= "<b>Approve here:</b> <a href='https://pianolessonsindublin.ie/reviewsadmin'>http://pianolessonsindublin.ie/reviewsadmin</a><br/>";
 
     return $this->full_html_message($message);
   }

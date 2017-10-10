@@ -5,7 +5,7 @@
             <div class="bodytext">
                 <p>Born in Sevastopol (Ukraine), Anastasiya had her first concerto appearance at the age of 13. She has performed as a soloist with the Sevastopol Chamber Orchestra and the Symphony Orchestra of Crimea. She was awarded a scholarship from the Soros Foundation after graduating with Honours from the Tchaikovsky College of Music in Simferopol. This enabled her to further her studies at the Prague Academy of Performing Arts, from where she graduated with honours in Piano Performance and Piano Pedagogy (teaching).</p>
                 <div style="float: right; margin: 11px; width:365px; text-align: center;">
-                    <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/1Cpj0XNYsi0" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="width:335px; height:234px;"  src="https://www.youtube.com/embed/1Cpj0XNYsi0" frameborder="0" allowfullscreen></iframe>
                     <span style="color: #444444; line-height: 17px; font-size:13px; ">Bach, Concerto No. 1 in D minor 1st movement.<br/> Played at 13 y.o. with Sevastopol Chamber Orchestra</span>
                 </div>
 
@@ -13,14 +13,14 @@
                 <p>Anastasiya has also enjoyed a series of successful concerts with Irish singers at the National Concert Hall in Dublin, where she performed as both an accompanist and soloist.</p>
 
                 <div style="float: right; margin: 11px; width:365px; text-align: center;">
-                    <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/_UpbFCDEqOA" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="width:335px; height:234px;"  src="https://www.youtube.com/embed/_UpbFCDEqOA" frameborder="0" allowfullscreen></iframe>
                     <span style="color: #444444; line-height: 17px; font-size:13px; ">Liszt, Liberstraum No.3</span>
                 </div>
 
                 <p>For over a decade now Anastasiya has dedicated herself to teaching. She enjoys working with students of all ages and levels: beginners, intermediates and advanced.</p>
 
                 <div style="float: right; margin: 11px; width:365px; text-align: center;">
-                    <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/e8vRbCrpG9M" frameborder="0" allowfullscreen></iframe>
+                    <iframe style="width:335px; height:234px;"  src="https://www.youtube.com/embed/e8vRbCrpG9M" frameborder="0" allowfullscreen></iframe>
                     <span style="color: #444444; line-height: 17px; font-size:13px; "></span>
                 </div>
 

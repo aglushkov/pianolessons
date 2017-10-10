@@ -8,12 +8,12 @@
             <p>Anastasiya encourages the involvement of the parent in the initial stage of learning. By sitting in on a few first piano lessons, parents can get a better idea of how to guide and motivate their children's practice at home. When teacher, parent and child are working as a team, the progress and success of the young student is guaranteed.</p>
             <p>The child's interest is maintained through a wide variety of musical styles and repertoire. So whatever their preferences are, whether it be classical, popular, baroque or jazz, all are catered for.</p>
             <div style="float: right; margin: 11px; width:365px; text-align: center;">
-                <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/m02rRt-YUOA" frameborder="0" allowfullscreen></iframe>
+                <iframe style="width:335px; height:234px;"  src="https://www.youtube.com/embed/m02rRt-YUOA" frameborder="0" allowfullscreen></iframe>
                 <span style="color: #444444; line-height: 17px; font-size:13px; ">Marianna 6.y.o and Alexei 7.y.o</span>
             </div>
             <?
             // <div style="float: right; margin: 11px; width:365px; text-align: center;">
-            //     <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/2DaBbKtSYII" frameborder="0" allowfullscreen></iframe>
+            //     <iframe style="width:335px; height:234px;"  src="https://www.youtube.com/embed/2DaBbKtSYII" frameborder="0" allowfullscreen></iframe>
             //     <span style="color: #444444; line-height: 17px; font-size:13px; "></span>
             // </div>
             ?>
@@ -22,7 +22,7 @@
             <p>Over the years, Anastasiya's students, no matter what age they are, have prepared for and completed grade examinations, both the Royal Irish Academy and Associated Board. They have always achieved excellent results and exceeded their own expectations, with all of them getting either Honours or Distinctions.</p>
             <?
             // <div style="float: right; margin: 11px; width:365px; text-align: center;">
-            //     <iframe style="width:335px; height:234px;"  src="http://www.youtube.com/embed/bkZ-p-WaIOU" frameborder="0" allowfullscreen></iframe>
+            //     <iframe style="width:335px; height:234px;"  src="https://www.youtube.com/embed/bkZ-p-WaIOU" frameborder="0" allowfullscreen></iframe>
             //     <span style="color: #444444; line-height: 17px; font-size:13px; "></span>
             // </div>
             ?>
