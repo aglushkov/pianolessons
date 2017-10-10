@@ -20,13 +20,10 @@ if (!empty($_POST)) {
 ?>
 
 <div id="mainimg">
-  <img src="/images/new/piano-lessons-in-dublin-contacts.jpg" width="720" height="720" alt="Contacts" title="Contacts"/>
-
   <div id="header" style="margin-top:10px;">
     <a name="start"></a>
     <h1>Contact</h1>
-
-    <div class="bodytext">
+    <div class="fl-40">
       <h2>Anastasiya Stukalova</h2>
       <table>
         <tr>
@@ -38,48 +35,41 @@ if (!empty($_POST)) {
           <td>nastyast@yahoo.com</td>
         </tr>
       </table>
-      <fieldset>
-        <legend>Contact form</legend>
-        <? if (!empty($_POST) && !empty($Contact->errorMessage))
-        {
-          ?><div id="contact_error"><?= $Contact->errorMessage ?></div><? }
-        ?>
-        <? if (!empty($_POST) && !empty($Contact->successMessage))
-        {
-          ?><div id="contact_success"><?= $Contact->successMessage ?></div><? }
-        ?>
-        <form id="contact" method="post" action="/contact#start" name="contact">
-          <ul>
-            <li>
-              <label for="username">Name <span>*</span></label>
-              <div>
-                <input id="username" name="username" value="<?= $Contact->user_name ?>" size="30" type="text"/>
-              </div>
-            </li>
-            <li>
-              <label for="useremail">Email <span>*</span></label>
-              <div>
-                <input id="useremail" name="useremail" value="<?= $Contact->user_email ?>" size="30" type="text"/>
-              </div>
-            </li>
-            <li>
-              <label for="usermessage">Message <span>*</span></label>
-              <div>
-                <textarea id="usermessage" name="usermessage" cols="60" rows="10"><?= $Contact->user_message ?></textarea>
-              </div>
-            </li>
-            <li>
-              <label for="userphone">Phone <span>*</span></label>
-              <div>
-                <input id="userphone" name="userphone" value="<?= $Contact->user_phone ?>" size="30" type="text"/>
-              </div>
-            </li>
-            <li id="contact_submit">
-              <input value="Send email" type="submit"/>
-            </li>
-          </ul>
-        </form>
-      </fieldset>
+    </div>
+    <div class="fr-60">
+      <img src="/images/new/piano-lessons-in-dublin-contacts-4.jpg" width="408" height="272" alt="Contacts" title="Contacts" style="border-color: #FFF"/>
+    </div>
+    <div id="contact-box" class="clear">
+      <? if (!empty($_POST) && !empty($Contact->errorMessage))
+      {
+        ?><div id="contact_error"><?= $Contact->errorMessage ?></div><? }
+      ?>
+      <? if (!empty($_POST) && !empty($Contact->successMessage))
+      {
+        ?><div id="contact_success"><?= $Contact->successMessage ?></div><? }
+      ?>
+      <form id="contact" method="post" action="/contact#start" name="contact">
+        <label for="username">Name <span>*</span></label>
+        <div>
+          <input id="username" name="username" value="<?= $Contact->user_name ?>" size="30" type="text"/>
+        </div>
+        <label for="useremail">Email <span>*</span></label>
+        <div>
+          <input id="useremail" name="useremail" value="<?= $Contact->user_email ?>" size="30" type="text"/>
+        </div>
+        <label for="usermessage">Message <span>*</span></label>
+        <div>
+          <textarea id="usermessage" name="usermessage" cols="60" rows="10"><?= $Contact->user_message ?></textarea>
+        </div>
+        <label for="userphone">Phone <span>*</span></label>
+        <div>
+          <input id="userphone" name="userphone" value="<?= $Contact->user_phone ?>" size="30" type="text"/>
+        </div>
+        <div id="contact_submit">
+          <input value="Send email" type="submit"/>
+        </div>
+        </ul>
+      </form>
     </div>
   </div>
 </div>

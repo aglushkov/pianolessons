@@ -447,16 +447,31 @@ div.Parameter {
     margin-bottom:10px;
 }
 
+#contact-box {
+    padding-top: 15px;
+}
+
 #contact label span
 {
     color:red;
 }
 
+#contact input, #contact textarea
+{
+    width: 100%;
+}
+
 #contact_submit
 {
+    padding-top: 10px;
     list-style-type: none;
     list-style-image: none;
-    padding-left:60px;
+    text-align: center;
+}
+
+#contact_submit input
+{
+    width: 90px;
 }
 
 #contact_success
@@ -567,3 +582,15 @@ input.submit
     height: 181px;
     cursor: pointer;
 }
+.fl-40 {
+    float: left;
+    width: 40%;
+}
+.fr-60 {
+    float: right;
+    width: 60%;
+}
+.clear {
+    clear: both;
+}
+

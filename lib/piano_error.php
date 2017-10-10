@@ -7,7 +7,7 @@ class PianoError extends Exception {
     $error_email = new ErrorEmail($message);
     $error_email->send();
 
-    parent::construct();
+    parent::__construct();
   }
 }
 ?>

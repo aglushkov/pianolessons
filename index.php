@@ -1,6 +1,6 @@
 <?
 session_start();
-error_log(-1);
+
 define("DOCROOT", $_SERVER["DOCUMENT_ROOT"]);
 require_once DOCROOT . '/config/errors.php';
 require_once DOCROOT . '/initializers/referrer.php';
@@ -86,7 +86,7 @@ $Navig = new Navigation();
       </div>
     </div>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="/js/turbolinks.js"></script>
     <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
     <script type="text/javascript">

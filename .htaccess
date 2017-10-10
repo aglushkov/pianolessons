@@ -1,3 +1,5 @@
+
+RewriteOptions inherit
 ErrorDocument 404 /404
 
 RewriteEngine On
@@ -9,7 +11,6 @@ RewriteRule ^events-and-performances$ /news-and-events [R=permanent,L]
 RewriteRule ^([a-z0-9-]+).html$ /$1 [R=permanent,L]
 RewriteRule ^index$ / [R=permanent,L]
 RewriteRule ^([a-z0-9-]+)/?$ /index.php?page=$1 [NC,L]
-
 
 AddDefaultCharset UTF-8
 
@@ -56,3 +57,4 @@ AddOutputFilterByType DEFLATE application/x-javascript
 #RewriteCond %{REMOTE_ADDR} !^89\.100\.11\.28$
 #RewriteCond %{REMOTE_ADDR} !^46\.35\.232\.97$
 #RewriteRule ^(.*)$ "https\:\/\/robohash\.org\/sitsequiquia\.png\?size\=300x300\&$1" [R=302,L]
+

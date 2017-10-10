@@ -1,5 +1,5 @@
 <div id="mainimg">
-    <img src="/images/new/piano-lessons-in-dublin-home.jpg" width="720" height="525" alt="Piano Lessons In Dublin" title="Piano Lessons In Dublin"/>
+    <img src="/images/new/piano-lessons-in-dublin-home.jpg" width="720" height="480" alt="Piano Lessons In Dublin" title="Piano Lessons In Dublin"/>
 
     <div id="header" style="margin-top:10px;">
         <div class="h1">Welcome</div>

@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<!-- MAIN INDEX PAGE -->
     <url>
-        <loc>http://pianolessonsindublin.ie</loc>
+        <loc>https://pianolessonsindublin.ie</loc>
         <priority>1</priority>
         <changefreq>daily</changefreq>
     </url>
 
     <url>
-        <loc>http://pianolessonsindublin.ie/biography</loc>
+        <loc>https://pianolessonsindublin.ie/biography</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/contact</loc>
+        <loc>https://pianolessonsindublin.ie/contact</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/diplomas</loc>
+        <loc>https://pianolessonsindublin.ie/diplomas</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/junior-leaving-certificates-music</loc>
+        <loc>https://pianolessonsindublin.ie/junior-leaving-certificates-music</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/lessons</loc>
+        <loc>https://pianolessonsindublin.ie/lessons</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/marianna-high-achiever-award</loc>
+        <loc>https://pianolessonsindublin.ie/marianna-high-achiever-award</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/mini-maestros</loc>
+        <loc>https://pianolessonsindublin.ie/mini-maestros</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/news-and-events</loc>
+        <loc>https://pianolessonsindublin.ie/news-and-events</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/piano-lessons-for-adults</loc>
+        <loc>https://pianolessonsindublin.ie/piano-lessons-for-adults</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/piano-lessons-for-children</loc>
-        <priority>0.9</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-
-    <url>
-        <loc>http://pianolessonsindublin.ie/results-pre-christmas-riam-examinations</loc>
+        <loc>https://pianolessonsindublin.ie/piano-lessons-for-children</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
 
     <url>
-        <loc>http://pianolessonsindublin.ie/students-associate-teacher-diploma</loc>
+        <loc>https://pianolessonsindublin.ie/results-pre-christmas-riam-examinations</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
 
     <url>
-        <loc>http://pianolessonsindublin.ie/summer-recital-2016</loc>
+        <loc>https://pianolessonsindublin.ie/students-associate-teacher-diploma</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
 
     <url>
-        <loc>http://pianolessonsindublin.ie/testimonials</loc>
+        <loc>https://pianolessonsindublin.ie/summer-recital-2016</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://pianolessonsindublin.ie/testimonials</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/theory-lessons</loc>
+        <loc>https://pianolessonsindublin.ie/theory-lessons</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://pianolessonsindublin.ie/vocal-coaching-and-accompaniment</loc>
+        <loc>https://pianolessonsindublin.ie/vocal-coaching-and-accompaniment</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>
     </url>

@@ -12,14 +12,13 @@ abstract class BaseEmail {
 
   public function send() {
     $mail = new PHPMailer();  // create a new object
-    $mail->SetFrom(NASTYA_EMAIL, $this->subject);
+    $mail->SetFrom(SMTP_USERNAME, $this->subject);
     $mail->Subject = $this->subject;
     $mail->Body = $this->constructMessage();
     $mail->IsHTML(true);
 
     $mail->AddAddress(ANDREY_EMAIL);
     $mail->AddAddress(NASTYA_EMAIL);
-
 
     if (USE_SMTP) {
       $mail->isSMTP();
