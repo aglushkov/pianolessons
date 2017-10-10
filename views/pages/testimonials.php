@@ -1,6 +1,6 @@
 <?
 require_once DOCROOT . '/model/reviews.php';
-require_once DOCROOT . '/inc/PHPMailer_5.2.1/class.phpmailer.php';
+require_once DOCROOT . '/inc/PHPMailer_5.2.25/PHPMailerAutoload.php';
 require_once DOCROOT . '/lib/emails/reviews.php';
 
 $Reviews = new Reviews();

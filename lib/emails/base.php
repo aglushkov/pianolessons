@@ -1,6 +1,6 @@
 <?php
 require_once DOCROOT . '/config/secrets.php';
-require_once DOCROOT . '/inc/PHPMailer_5.2.1/PHPMailerAutoload.php';
+require_once DOCROOT . '/inc/PHPMailer_5.2.25/PHPMailerAutoload.php';
 
 abstract class BaseEmail {
   abstract protected function constructMessage();
@@ -12,13 +12,15 @@ abstract class BaseEmail {
 
   public function send() {
     $mail = new PHPMailer();  // create a new object
-    $mail->SetFrom(SMTP_USERNAME);
+    $mail->SetFrom(FROM_EMAIL);
     $mail->Subject = $this->subject;
     $mail->Body = $this->constructMessage();
     $mail->IsHTML(true);
 
     $mail->AddAddress(ANDREY_EMAIL);
     $mail->AddAddress(NASTYA_EMAIL);
+
+    $mail->AddReplyTo(NASTYA_EMAIL);
 
     if (USE_SMTP) {
       $mail->isSMTP();
