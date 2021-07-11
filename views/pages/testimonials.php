@@ -2,25 +2,29 @@
 require_once DOCROOT . '/model/reviews.php';
 require_once DOCROOT . '/inc/PHPMailer_5.2.25/PHPMailerAutoload.php';
 require_once DOCROOT . '/lib/emails/reviews.php';
+require_once DOCROOT . '/lib/recaptcha.php';
 
 $Reviews = new Reviews();
 
 if(!empty($_POST)) {
-  $name = trim(strip_tags($_POST["name"]));
-  $message = trim(strip_tags($_POST["message"]));
-  switch ($_POST["action"]) {
-    case "new": {
-      $res = $Reviews->addReview(trim($name), trim($message));
+  $Recaptcha = new Recaptcha();
+  if ($Recaptcha->validate($_POST["g-recaptcha-response"], $_SERVER['REMOTE_ADDR'])) {
+    $name = trim(strip_tags($_POST["name"]));
+    $message = trim(strip_tags($_POST["message"]));
+    switch ($_POST["action"]) {
+      case "new": {
+        $res = $Reviews->addReview(trim($name), trim($message));
 
-      if ($res) {
-        $success_message = "<div style='background-color:greenyellow'>Rewiew succesfully added. Please note, it will remain hidden until approved by administrator.</div>";
+        if ($res) {
+          $success_message = "<div style='background-color:greenyellow'>Rewiew succesfully added. Please note, it will remain hidden until approved by administrator.</div>";
 
-        $Email = new ReviewsEmail(trim($name), trim($message));
-        if (!empty($_POST)) {
-          $Email->send();
+          $Email = new ReviewsEmail(trim($name), trim($message));
+          if (!empty($_POST)) {
+            $Email->send();
+          }
+        } else {
+          $success_message = "<div style='background-color:pink'>Some Error Happened. Review was not added.</div>";
         }
-      } else {
-        $success_message = "<div style='background-color:pink'>Some Error Happened. Review was not added.</div>";
       }
     }
   }
@@ -48,13 +52,20 @@ $reviews = $Reviews->getApprovedReviews();
       <div class="bodytext">
         <fieldset style="margin-top:5px;">
           <legend>Add New Review</legend>
-           <form method="post" action="<?= $_SERVER["REQUEST_URI"]?>">
+           <form method="post" id="testimonial" action="<?= $_SERVER["REQUEST_URI"]?>">
             <label for="name">Name</label><br/>
             <input name="name" id="name" type="text" value="<?= $postname?>"/><br/>
             <label for="message">Review</label><br/>
             <textarea name="message" id="message" cols="30" rows="6"><?=$postmessage;?></textarea><br/>
             <input type="hidden" name="action" value="new"/>
-            <input type="submit" value="Send review"/>
+            <input
+              type="submit"
+              class="submit g-recaptcha"
+              data-sitekey="<?= GOOGLE_RECAPTCHA_SITE_KEY; ?>"
+              data-callback="onSubmitReview"
+              data-action="submit"
+              value="Send review"
+            />
           </form>
           <?= $success_message?>
         </fieldset>
@@ -74,3 +85,10 @@ $reviews = $Reviews->getApprovedReviews();
     </div>
   </div>
 </div>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+  function onSubmitReview(token) {
+    document.getElementById("g-recaptcha-response").value = token;
+    document.getElementById("testimonial").submit();
+  }
+</script>

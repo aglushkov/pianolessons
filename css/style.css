@@ -571,7 +571,9 @@ input.submit
 {
     width:200px;
     display:block;
-    margin: 0 auto;
+    margin: 10px auto 0;
+    text-align: center;
+    cursor: pointer;
 }
 
 .slider-for div img {

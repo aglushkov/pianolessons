@@ -2,6 +2,7 @@
 $Java->add("/js/contacts.js","code");
 
 require_once DOCROOT . '/lib/emails/contact.php';
+require_once DOCROOT . '/lib/recaptcha.php';
 
 if (!empty($_POST)) {
   $name = trim(stripslashes($_POST["username"]));
@@ -12,7 +13,11 @@ if (!empty($_POST)) {
   $Contact = new ContactEmail($name, $email, $message, $phone);
 
   if (!$Contact->isError()) {
-    $Contact->send();
+    $Recaptcha = new Recaptcha();
+
+    if ($Recaptcha->validate($_POST["g-recaptcha-response"], $_SERVER['REMOTE_ADDR'])) {
+      $Contact->send();
+    }
   }
 } else {
   $Contact = new ContactEmail();
@@ -66,10 +71,24 @@ if (!empty($_POST)) {
           <input id="userphone" name="userphone" value="<?= $Contact->user_phone ?>" size="30" type="text"/>
         </div>
         <div id="contact_submit">
-          <input value="Send email" type="submit"/>
+           <input
+              type="submit"
+              class="submit g-recaptcha"
+              data-sitekey="6Ld0R4wbAAAAABDFOAnfbkfOZ5MHriGFFZzisqfv"
+              data-callback='onSubmitContact'
+              data-action='submit'
+              value="Send email"
+            />
         </div>
         </ul>
       </form>
     </div>
   </div>
 </div>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+  function onSubmitContact(token) {
+    document.getElementById("g-recaptcha-response").value = token;
+    document.getElementById("contact").submit();
+  }
+</script>
