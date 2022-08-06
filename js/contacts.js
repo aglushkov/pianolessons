@@ -1,9 +1,3 @@
-$(function(){
-    Contact = new Contacts();
-    Contact.onSubmit();
-    Contact.onElemClick();
-});
-
 var Contacts = function()
 {
     this.form = $("#contact");
@@ -11,7 +5,7 @@ var Contacts = function()
     this.emailElem = $("#useremail");
     this.phoneElem = $("#userphone");
     this.messageElem = $("#usermessage");
-    
+
     this.init = function()
     {
         this.name = this.trim(this.nameElem.val());
@@ -21,11 +15,11 @@ var Contacts = function()
         this.alertMessages = new Array();
         this.wrongElems = new Array();
     }
-    
+
     this.checkForm = function()
     {
         this.init();
-        
+
         if (this.name=="")
         {
             this.alertMessages.push("Please enter your name");
@@ -46,12 +40,12 @@ var Contacts = function()
             this.alertMessages.push("Please enter your message");
             this.wrongElems.push(this.messageElem);
         }
-        
+
         var result = this.alertMessages.length==0?true:false;
-        
+
         return result;
     }
-    
+
     this.onSubmit = function()
     {
         this.form.submit(function(){
@@ -62,7 +56,7 @@ var Contacts = function()
                 $.each(Contact.wrongElems,function(){
                     this.css("background-color","red");
                 })
-            }    
+            }
             return result;
         })
     }
@@ -73,13 +67,18 @@ var Contacts = function()
             $(this).css("background-color","white");
         })
     }
-    
+
     this.trim = function(string)
     {
          return string.replace(/(^\s+)|(\s+$)/g, "");
     }
 }
 
+$(function(){
+    Contact = new Contacts();
+    Contact.onSubmit();
+    Contact.onElemClick();
+});
 
 
 

@@ -9,7 +9,6 @@
                 <br/>
                 <br/>
                 A big congratulations to Marianna on her achievement at such a young age!
-                <img src='/images/marianna-high-achiever-awards_4.jpg'></img>
             </p>
         </div>
     </div>

@@ -20,6 +20,9 @@
                     <div>Music theory lessons will enable you to gain a deeper understanding and appreciation of music, and will help you to achieve success, whether as a performer, composer, teacher or listener. <a href="/theory-lessons">More...</a></div>
                 </li>
                 <li>
+                    <a href="/online-lessons">Online Lessons</a><br/>
+                </li>
+                <li>
                     <a href="/junior-leaving-certificates-music">Junior/Leaving Certificates Music</a><br/>
                     <div>Anastasiya can prepare students for both Junior and Leaving Certificates Music. <a href="/junior-leaving-certificates-music">More...</a></div>
                 </li>

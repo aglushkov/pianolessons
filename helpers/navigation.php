@@ -15,6 +15,7 @@ class Navigation
                                     'piano-lessons-for-children'=>array("name"=>"Piano lessons for Children"),
                                     'vocal-coaching-and-accompaniment'=>array("name"=>"Vocal Coaching and Accompaniment"),
                                     'theory-lessons'=>array("name"=>"Theory Lessons"),
+                                    'online-lessons'=>array("name"=>"Online Lessons"),
                                     'junior-leaving-certificates-music'=>array("name"=>"Junior/Leaving Certificates Music"),
                                     'diplomas'=>array("name"=>"Diplomas"),
                                     'mini-maestros'=>array("name"=>"Mini Maestros")

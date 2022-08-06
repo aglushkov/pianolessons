@@ -85,7 +85,11 @@ $Navig = new Navigation();
         </div>
       </div>
     </div>
-
+    <div id="imgModal" class="modal">
+      <span class="close">×</span>
+      <img src="" class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="/js/turbolinks.js"></script>
     <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
