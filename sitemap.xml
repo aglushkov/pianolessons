@@ -13,6 +13,16 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
+        <loc>https://pianolessonsindublin.ie/2022-epta-piano-competitions</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://pianolessonsindublin.ie/2022-castleknock-piano-competitions</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
         <loc>https://pianolessonsindublin.ie/biography</loc>
         <priority>0.9</priority>
         <changefreq>weekly</changefreq>

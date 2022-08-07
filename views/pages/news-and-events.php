@@ -3,13 +3,14 @@
         <h1>News and Events</h1>
         <div align="justify">
             <ul id="lessonsList">
+                <li><a href="/2022-epta-piano-competitions">Anastasiya's students win prizes at 2022 EPTA Piano Competitions</a></li>
+                <li><a href="/2022-castleknock-piano-competitions">Anastasiya’s students win 1st Prize in the Castleknock Piano Competition 2022</a></li>
                 <li><a href="/riam-competition-2019">Anastasiya's student wins 1st Prize at RIAM Scholarships and Prizes competition - June 2019</a></li>
                 <li><a href="/summer-recital-2019">Summer Recital 2019</a></li>
                 <li><a href="/navan-choral-instrumental-festival-2019">Anastasiya's students become prizewinners at Navan Choral and Instrumental Festival - May 2019</a></li>
                 <li><a href="/feis-ceoil">Anastasiya's students win prizes at Feis Ceoil - April 2019</a></li>
                 <li><a href="/newpark-2019">Anastasiya's students win 1st Prize at Newpark Music Festival - February 2019</a></li>
                 <li><a href="/christmas-recital-2018">Christmas Recital 2018</a></li>
-
                 <li><a href="/riam-competition-2018">Anastasiya's students win 1st and 2nd Prize at RIAM Scholarships and Prizes competition</a></li>
                 <li><a href="/summer-recital-2018">Summer Recital 2018</a></li>
                 <li><a href="/navan-choral-instrumental-festival">Anastasiya's student wins 3rd Prize at Navan Choral and Instrumental Festival</a></li>

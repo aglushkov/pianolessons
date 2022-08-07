@@ -29,7 +29,7 @@ if (!empty($_POST)) {
     } case HIDE: {
       $res = $Reviews->disApproveReview(trim($_POST["id"]));
       if ($res) {
-        $message = "Review succesfully hided.";
+        $message = "Review succesfully hidden.";
       }
       break;
     } case DELETE: {
