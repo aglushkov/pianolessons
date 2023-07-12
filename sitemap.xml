@@ -6,7 +6,21 @@
         <priority>1</priority>
         <changefreq>daily</changefreq>
     </url>
-
+    <url>
+        <loc>https://pianolessonsindublin.ie/2023-castlenock-piano-competition</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://pianolessonsindublin.ie/2023-arklow-music-festival</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://pianolessonsindublin.ie/2023-epta-piano-competition</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
     <url>
         <loc>https://pianolessonsindublin.ie/arklow-music-festival-2018</loc>
         <priority>0.9</priority>

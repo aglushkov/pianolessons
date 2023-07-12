@@ -3,6 +3,9 @@
         <h1>News and Events</h1>
         <div align="justify">
             <ul id="lessonsList">
+                <li><a href="/2023-castlenock-piano-competition">Anastasiya’s students win prizes at the 2023 Castleknock Piano Competition</a></li>
+                <li><a href="/2023-arklow-music-festival">Anastasiya’s students win the 2nd Prize at the 2023 Arklow Music Festival</a></li>
+                <li><a href="/2023-epta-piano-competition">Anastasiya’s students become prize winners in the 2023 EPTA Piano Competition</a></li>
                 <li><a href="/2022-epta-piano-competitions">Anastasiya's students win prizes at 2022 EPTA Piano Competitions</a></li>
                 <li><a href="/2022-castleknock-piano-competitions">Anastasiya’s students win 1st Prize in the Castleknock Piano Competition 2022</a></li>
                 <li><a href="/riam-competition-2019">Anastasiya's student wins 1st Prize at RIAM Scholarships and Prizes competition - June 2019</a></li>
@@ -22,7 +25,7 @@
                 <li><a href="/results-pre-christmas-riam-examinations">Excellent results achieved in RIAM examinations</a></li>
                 <li><a href="/students-associate-teacher-diploma">Anastasiya's students receive the Associate Teacher Diplomas of RIAM</a></li>
                 <li><a href="/marianna-high-achiever-award">Anastasiya's student receives High Achiever Award - November 2015</a></li>
-                <?
+                <?php
                 // <li><a href="/student-summer-recital-june-2015">Students Summer Recital - June 2015</a></li>
                 // <li><a href="/christmas-recital-2014">Christmas Recital 2014</a></li>
                 ?>
