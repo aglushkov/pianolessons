@@ -1,6 +1,6 @@
 <div id="mainimg">
     <div id="header" style="margin-top:10px;">
-        <h1>Anastasiya’s students become prize winners in the 2023 EPTA Piano Competition</h1>
+        <h1>Anastasiya’s students become prizewinners in the 2023 EPTA Piano Competition</h1>
 
         <div class="bodytext">
             <p>
